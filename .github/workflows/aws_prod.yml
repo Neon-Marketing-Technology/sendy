@@ -24,9 +24,9 @@
 #    and best practices on handling the access key credentials.
 
 on:
-    release:
-        types:
-            - published
+    push:
+        branches:
+            - master
 
 name: Deploy to Production
 
